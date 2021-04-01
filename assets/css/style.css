@@ -1,0 +1,32 @@
+li{
+    font-size: .8em;
+    line-height: 1.5em;
+    list-style-type: none;
+}
+ul{
+    padding-inline-start: 1.2em;
+    
+}
+section{
+    border: 0.1rem solid black;
+    font-size: 1rem;
+}
+section ul li:first-of-type ul li:nth-of-type(1) ul li::before {
+   
+   content: "🐶";
+}
+
+section ul li:first-of-type ul li:nth-of-type(2) ul li::before{
+   content:"🐕"
+}
+
+section ul li:nth-of-type(2) ul li ul li::before{
+    content:"🦜"
+}
+
+section ul li:nth-of-type(3) ul li:nth-of-type(1) ul li::before{
+    content:"🐍"
+}
+section ul li:nth-of-type(3) ul li:nth-of-type(2) ul li::before{
+    content:"🐢"
+}
